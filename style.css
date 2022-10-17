@@ -36,8 +36,19 @@ body{
     height: 100%;
     justify-content: space-around;
 }
-
-
+.huvud_sida{
+    background-color: rgba(255, 255, 255, 0.838);
+    width: 125vh;
+    height: 98vh;
+}
+.loga{
+    width: 80vh;
+}
+.titel{
+    background-color: rgba(128, 128, 128, 0.868);
+    width: 100%;
+    
+}
 
 
 
@@ -49,7 +60,7 @@ body{
         display:flex;
         flex-direction: column;
     }
-    .second_container{
+    .huvud_sida{
         width: 80%;
         margin: 2%;
         height: fit-content;
