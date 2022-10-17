@@ -17,6 +17,19 @@ h3{
     color:rgb(0, 0, 0);
     text-align: center;
 }
+.button1 {
+    font-size: 130%;
+    width: 100%;
+    
+}
+.button2 {
+    font-size: 130%;
+    width: 100%;
+}
+.button3 {
+    font-size: 130%;
+    width: 100%;
+}
 
 body{
     background-image: url('brickwall.jpg');
@@ -37,32 +50,47 @@ body{
     justify-content: space-around;
 }
 .huvud_sida{
-    background-color: rgba(255, 255, 255, 0.838);
+    background-color: rgb(255, 255, 255);
     width: 100vh;
     height: 98vh;
     right: 25vh;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 10px 10px 10px 10px;
 }
+
 .secondPage{
-    background-color: rgba(255, 255, 255, 0.838);
-    width: 25vh;
+    background-color: rgb(255, 255, 255);
+    width: 24.6vh;
     height: 98vh;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+.loga{
+    background-image: url('lucky.png');
+    width: 100%;
+    height: 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
 }
 .menyVal{
     display: flex;
     flex-direction: column;
-    width: 50%;
-    padding: 1% 1% 1% 1%;
     background-color: white;
-    height: 25vh;
-    align-items: center;
-    border-style:dotted;
+    height: 40vh;
     padding: 2.5vh;
-    
+}
 
+.kött{
+    padding: 10px;
+    
+}
+.fisk{
+    padding: 10px;
+    
+}
+.vegetariskt{
+    padding: 10px;
 }
 
 .titel{
@@ -85,19 +113,12 @@ body{
         flex-direction: column;
     }
     .huvud_sida{
-        width: 80%;
+        width: 120%;
         margin: 2%;
         height: fit-content;
     }
-    /*
-    .{
-        width: 80%;
+    .secondpage{
+        width: 120%;
         margin: 2%;
         height: fit-content;
     }
-    .{
-        width: 80%;
-        margin: 2%;
-        height: fit-content;
-    }
-    /*
