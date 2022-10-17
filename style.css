@@ -47,7 +47,7 @@ body{
 .titel{
     background-color: rgba(128, 128, 128, 0.868);
     width: 100%;
-    
+    top:auto;
 }
 
 
