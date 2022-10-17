@@ -118,12 +118,11 @@ body{
         flex-direction: column;
     }
     .huvud_sida{
-        width: 120%;
+        width: 100%;
         margin: 2%;
         height: fit-content;
     }
     .secondpage{
-        width: 120%;
         margin: 2%;
         height: fit-content;
     }
