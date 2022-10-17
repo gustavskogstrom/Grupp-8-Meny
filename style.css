@@ -38,19 +38,42 @@ body{
 }
 .huvud_sida{
     background-color: rgba(255, 255, 255, 0.838);
-    width: 125vh;
+    width: 100vh;
     height: 98vh;
+    right: 25vh;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 0px 10px 10px 0px;
 }
-.loga{
-    
+.secondPage{
+    background-color: rgba(255, 255, 255, 0.838);
+    width: 25vh;
+    height: 98vh;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px 0px 0px 10px;
 }
+.menyVal{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 1% 1% 1% 1%;
+    background-color: white;
+    height: 25vh;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+
+}
+
 .titel{
     background-color: rgba(128, 128, 128, 0.868);
     width: 100%;
     top:auto;
 }
-
-
+.andratitel{
+    background-color: rgba(128, 128, 128, 0.868);
+    width: 100%;
+    top:auto;
+}
 
 
 
