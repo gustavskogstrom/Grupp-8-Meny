@@ -1,4 +1,4 @@
-*{
+/**{
     box-sizing: border-box;
 }
 p{
@@ -65,4 +65,124 @@ body{
         margin: 2%;
         height: fit-content;
     }
-    /*
+    */
+//här börjar martins
+    body {
+    font-family: Verdana;
+    background-color: grey;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box1 {
+    width: 300px;
+    height: 300px;
+    border: 3px solid red;
+    padding: 10px;
+    flex: 1;
+    list-style-type: none;
+
+}
+
+.val{
+    flex-direction: column;
+}
+.rätter {
+    padding-left: 10px;
+}
+.allergier{
+    margin-top: 80px;
+
+}
+
+.box2 {
+    width: 300px;
+    height: 300px;
+    border: 3px solid green;
+    padding: 10px;
+    flex: 1;
+    
+}
+.bild-fram {
+    text-align: center;
+}
+
+
+.header {
+    width: 97vw;
+    height: 20vh;
+    border: 3px solid blue;
+    padding: 10px;
+    display: flex;
+
+}
+
+.rubrik {
+    font-family: 'Times New Roman', Times, serif;
+    top: 2vh;
+    text-align: center;
+    flex: 5;
+
+}
+
+.logga {
+    width: 100px;
+    flex: 1;
+}
+
+.fotnot {
+    width: 97vw;
+    height: 20vh;
+    border: 3px solid green;
+    padding: 10px;
+
+}
+
+.fa-brands fa-facebook{
+    width: 50px;
+    position: absolute;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }

@@ -1,23 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"
-    rell="stylesheet">
-    <title>Meny Grupp 8</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <div class="main_container">
-        <div class="second_container">
-            <h1>Meny</h1>
-            
-            <div class="innerSecond_container">
-                    sacasdawdad
-            </div>
+  <!--Rubrik med logga-->
+  <div class="header">
+    <img class="logga" src="lucky_duck.png" alt="">
+    <h1 class="rubrik">MENY</h1>
+  </div>
+
+  <body>
+
+
+    <!--sidmenyn börjar här-->
+
+    <div class="container">
+
+      <div class="val">
+
+        <!--sidmeny rätter-->
+        <div class="rätter">
+          <!--sidmeny rullfunktion-->
+          <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="kött"><a href="kött.html">Kött</a></div>
+            <div class="fisk"><a href="fisk.html">Fisk</a></div>
+            <div class="vegetarisk"><a href="vegetarisk.html">Vegetarisk</a></div>
+            <div class="dryck"><a href="">Dryck</a></div>
+          </div>
+          <span style="font-size:25px;cursor:pointer" onclick="openNav()">&#9776; Välj</span>
+          <!--sidmeny rätter slut-->
         </div>
+
+        <!--Hämtat från bootstrap under forms, check&radios, allergier-->
+        <div class="allergier">
+
+          <fieldset id="allergi">
+            <legend>Allergier</legend>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                Musslor
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+              <label class="form-check-label" for="flexCheckChecked">
+                Kött
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+              <label class="form-check-label" for="flexCheckChecked">
+                Fisk
+              </label>
+            </div>
+          </fieldset>
+        </div>
+        <!--slut på allergiblock-->
+      </div>
+
+      <!--mittenblocket med maträtter här
+      tanken är att sidan ska vara tom på rätter, väljer man kött i menyn presenteras kötträtter på sidan-->
+      <p id="svar"></p>
+      <div class="box2">  
+        <div class="bild-fram"><img src="bartender.jpeg" width="400px" alt="">  </div>  
+        <!--slut mittenblock-->
+      </div>
+      <!--Slut på containerblock-->
     </div>
+
+
+    <!--fotnot-->
+    <footer class="fotnot">
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+      integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+      crossorigin="anonymous"></script>
     <script src="script.js"></script>
-</body>
+  </body>
+
 </html>
