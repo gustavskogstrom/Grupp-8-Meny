@@ -11,75 +11,21 @@
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
     crossorigin="anonymous"></script>
 </head>
-
 <body>
-  <!--Rubrik med logga-->
-  <div class="header">
-    <img class="logga" src="lucky_duck.png" alt="">
-    <h1 class="rubrik">MENY</h1>
-  </div>
-
-  <body>
-
-
-    <!--sidmenyn börjar här-->
+  
+    <!--sortering-->
 
     <div class="container">
-
       <div class="val">
-
-        <!--sidmeny rätter-->
-        <div class="rätter">
-          <!--sidmeny rullfunktion-->
-          <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <div class="kött"><a href="kött.html">Kött</a></div>
-            <div class="fisk"><a href="fisk.html">Fisk</a></div>
-            <div class="vegetarisk"><a href="vegetarisk.html">Vegetarisk</a></div>
-            <div class="dryck"><a href="">Dryck</a></div>
-          </div>
-          <span style="font-size:25px;cursor:pointer" onclick="openNav()">&#9776; Välj</span>
-          <!--sidmeny rätter slut-->
-        </div>
-
-        <!--Hämtat från bootstrap under forms, check&radios, allergier-->
-        <div class="allergier">
-
-          <fieldset id="allergi">
-            <legend>Allergier</legend>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-              <label class="form-check-label" for="flexCheckDefault">
-                Musslor
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-              <label class="form-check-label" for="flexCheckChecked">
-                Kött
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-              <label class="form-check-label" for="flexCheckChecked">
-                Fisk
-              </label>
-            </div>
-          </fieldset>
-        </div>
-        <!--slut på allergiblock-->
-      </div>
-
-      <!--mittenblocket med maträtter här
-      tanken är att sidan ska vara tom på rätter, väljer man kött i menyn presenteras kötträtter på sidan-->
-      <p id="svar"></p>
-      <div class="box2">  
-        <div class="bild-fram"><img src="bartender.jpeg" width="400px" alt="">  </div>  
-        <!--slut mittenblock-->
-      </div>
-      <!--Slut på containerblock-->
+        <select name="pris" id="sortering">
+          <option disabled selected>Sortera pris</option>
+            <option value="descending">Fallande Pris</option>
+            <option value="ascending">Stigande Pris</option>
+        </select>
+      </div>     
+      <div class="box2">        
+      </div>     
     </div>
-
 
     <!--fotnot-->
     <footer class="fotnot">
