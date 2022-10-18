@@ -30,6 +30,7 @@ h3{
 .button3 {
     font-size: 130%;
     width: 100%;
+    
 }
 
 body{
@@ -88,20 +89,22 @@ body{
 
 .kött{
     padding: 10px;
-    
+
 }
 .fisk{
     padding: 10px;
-    
+
 }
 .vegetariskt{
     padding: 10px;
+
 }
 
 .titel{
     background-color: rgba(128, 128, 128, 0.868);
     width: 100%;
     top:auto;
+    
 }
 .andratitel{
     background-color: rgba(128, 128, 128, 0.868);
@@ -109,8 +112,42 @@ body{
     top:auto;
 }
 
+/*-----------------------------------------*/
+.köttBox {
+    display:flex;
+}
+.fiskBox {
+    display: none;
+}
+.vegetariskBox {
+    display: none;
+}
 
+/*-----------------------------------------*/
 
+.köttBox fiskBox{
+    display: none;
+}
+.fiskBox fiskBox{
+    display: flex;
+}
+.vegetariskBox fiskBox{
+    display: none;
+}
+
+/*-----------------------------------------*/
+
+.köttBox vegetariskBox{
+    display: none;
+}
+.fiskBox vegetariskBox{
+    display: none;
+}
+.vegetariskBox vegetariskBox{
+    display: flex;
+}
+
+/*-----------------------------------------*/
 
 @media screen and (max-width:1024px){
     .main_container{
