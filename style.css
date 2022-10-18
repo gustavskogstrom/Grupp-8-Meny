@@ -125,25 +125,25 @@ body{
 
 /*-----------------------------------------*/
 
-.köttBox fiskBox{
+.köttBox .fiskBox{
     display: none;
 }
-.fiskBox fiskBox{
+.fiskBox .fiskBox{
     display: flex;
 }
-.vegetariskBox fiskBox{
+.vegetariskBox .fiskBox{
     display: none;
 }
 
 /*-----------------------------------------*/
 
-.köttBox vegetariskBox{
+.köttBox .vegetariskBox{
     display: none;
 }
-.fiskBox vegetariskBox{
+.fiskBox .vegetariskBox{
     display: none;
 }
-.vegetariskBox vegetariskBox{
+.vegetariskBox .vegetariskBox{
     display: flex;
 }
 
