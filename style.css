@@ -39,11 +39,6 @@ body{
 
 
 
-
-
-
-
-
 @media screen and (max-width:1024px){
     .main_container{
         display:flex;
@@ -54,15 +49,17 @@ body{
         margin: 2%;
         height: fit-content;
     }
-    /*
-    .{
-        width: 80%;
-        margin: 2%;
-        height: fit-content;
-    }
-    .{
-        width: 80%;
-        margin: 2%;
-        height: fit-content;
-    }
-    /*
+
+
+{
+    
+
+
+
+}   
+
+    
+
+    
+
+    
