@@ -113,37 +113,37 @@ body{
 }
 
 /*-----------------------------------------*/
-.köttBox {
-    display:flex;
-}
-.fiskBox {
-    display: none;
-}
-.vegetariskBox {
-    display: none;
-}
-
-/*-----------------------------------------*/
-
-.köttBox .fiskBox{
-    display: none;
-}
-.fiskBox .fiskBox{
+.köttBox{
     display: flex;
 }
-.vegetariskBox .fiskBox{
+.fiskBox{
+    display: none;
+}
+.vegetariskBox{
     display: none;
 }
 
 /*-----------------------------------------*/
 
-.köttBox .vegetariskBox{
+.köttBox.boxTwo{
     display: none;
 }
-.fiskBox .vegetariskBox{
+.fiskBox.boxTwo{
+    display: flex;
+}
+.vegetariskBox.boxTwo{
     display: none;
 }
-.vegetariskBox .vegetariskBox{
+
+/*-----------------------------------------*/
+
+.köttBox.boxThree{
+    display: none;
+}
+.fiskBox.boxThree{
+    display: none;
+}
+.vegetariskBox.boxThree{
     display: flex;
 }
 
@@ -162,4 +162,4 @@ body{
     .secondpage{
         margin: 2%;
         height: fit-content;
-    }
+    }}
