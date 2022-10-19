@@ -4,12 +4,13 @@
 p{
     color:rgb(0, 0, 0);
     text-align: left;
+    padding: 0px 10px 10px 10px;
 }
 h1{
     color:rgb(0, 0, 0);
     text-align: center;
     margin: 1%;
-    font-style: oblique;
+    font-family: Castellar;
 }
 h2{
     color:rgb(0, 0, 0);
@@ -22,16 +23,22 @@ h3{
 .button1 {
     font-size: 130%;
     width: 100%;
-    
+    font-family: Baguet Script;
 }
 .button2 {
     font-size: 130%;
     width: 100%;
+    font-family: Baguet Script;
 }
 .button3 {
-    font-size: 130%;
+    font-size: 140%;
     width: 100%;
-    
+    font-family: Baguet Script;
+}
+.button4 {
+    font-size: 140%;
+    width: 100%;
+    font-family: Baguet Script;
 }
 
 body{
@@ -88,18 +95,26 @@ body{
     padding: 2.5vh;
 }
 
+/*-----------------------------------------*/
+
 .kött{
     padding: 10px;
 
 }
-.fisk{
+.fisks{
     padding: 10px;
-
 }
 .vegetariskt{
     padding: 10px;
-
 }
+
+/*-----------------------------------------*/
+
+.alla{
+    padding: 10px;
+}
+
+/*-----------------------------------------*/
 
 .titel{
     background-color: rgba(128, 128, 128, 0.868);
@@ -114,13 +129,15 @@ body{
 }
 
 /*-----------------------------------------*/
-.köttBox{
+
+.köttBox.boxOne{
     display: flex;
+
 }
-.fiskBox{
+.fiskBox.boxOne{
     display: none;
 }
-.vegetariskBox{
+.vegetariskBox.boxOne{
     display: none;
 }
 
@@ -131,6 +148,7 @@ body{
 }
 .fiskBox.boxTwo{
     display: flex;
+
 }
 .vegetariskBox.boxTwo{
     display: none;
@@ -146,9 +164,30 @@ body{
 }
 .vegetariskBox.boxThree{
     display: flex;
+
 }
 
 /*-----------------------------------------*/
+
+.köttBox.boxFour{
+    display: flex;
+
+}
+.fiskBox.boxFour{
+    display: flex;
+
+}
+.vegetariskBox.boxFour{
+    display: flex;
+
+}
+
+/*-----------------------------------------*/
+
+.fieldset{
+    padding: 0vh 50vh 0vh 0vh;
+}
+
 
 @media screen and (max-width:1024px){
     .main_container{
